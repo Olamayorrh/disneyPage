@@ -41,26 +41,26 @@ function App() {
        <div>
         <Header head="Park"/>
         <div className="parkk">
-         <Park image="../src/assets/images/disneylandorig.jpeg" title="DISNEY LAND"/>
-          <Park image="../src/assets/images/cruise.jpeg" title="DISNEY LAND"/>
-          <Park image="../src/assets/images/manDaughter.jpeg" title="DISNEY LAND"/>
+         <Park image="./images/disneylandorig.jpeg" title="DISNEY LAND"/>
+          <Park image="./images/cruise.jpeg" title="DISNEY LAND"/>
+          <Park image="./images/manDaughter.jpeg" title="DISNEY LAND"/>
         </div>
         </div>
 
         <div>
           <Header head="Shows"/>  
           <div className="display">
-          <Shows img="./src/assets/images/lion.jpeg"/>
-          <Shows img="./src/assets/images/frozen.jpeg"/>
+          <Shows img="./images/lion.jpeg"/>
+          <Shows img="./images/frozen.jpeg"/>
           </div>
         </div>
 
         <div>
         <Header head="Movies"/>
         <div className="parkk">
-         <Park image="../src/assets/images/starwars.jpeg" title="DISNEY LAND" />
-          <Park image="../src/assets/images/insideout.jpeg" title="DISNEY LAND"/>
-          <Park image="../src/assets/images/soul.jpeg" title="DISNEY LAND"/>
+         <Park image="./images/starwars.jpeg" title="DISNEY LAND" />
+          <Park image="./images/insideout.jpeg" title="DISNEY LAND"/>
+          <Park image="./images/soul.jpeg" title="DISNEY LAND"/>
         </div>
         </div>
 
