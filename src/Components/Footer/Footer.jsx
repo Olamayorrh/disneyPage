@@ -6,16 +6,16 @@ const Footer = ()=>{
         <div className="follow">
             <p>Follow Disney on:</p>
            <div className="pic">
-           <img src="../src/assets/images/facebookicon.png" className="imgg1"></img>
-           <img src="../src/assets/images/linked.png" className="imgg1"></img>
-           <img src="../src/assets/images/mail.png"className="imgg1"></img>
+           <img src="./images/facebookIcon.png" className="imgg1"></img>
+           <img src="./images/linked.png" className="imgg1"></img>
+           <img src="./images/mail.png"className="imgg1"></img>
             
            </div>
            
 
         </div>
 
-       <div className="dis"> <img src="../src/assets/images/disneyLogo.png" id="dis"></img></div>
+       <div className="dis"> <img src="./images/disneyLogo.png" id="dis"></img></div>
        <div className="footie">
         <span>Help</span>
         <span>Sign Up</span>

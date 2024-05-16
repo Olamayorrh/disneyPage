@@ -10,6 +10,11 @@ import Park from "./Components/Park/Park"
 import Shows from "./Components/Shows/Shows"
 import Footer from "./Components/Footer/Footer"
 import More from "./Components/More/More"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Disney from "./Components/Navbar/Disney"
+
+import Movies from "./Components/Navbar/Movies"
+
 
 
 function App() {
@@ -17,13 +22,25 @@ function App() {
 
   return (
     <div className="container">
+      
+      <BrowserRouter>
       <Navbar />
+        <Routes>
+          <Route path="/disney" element={<Disney/>}></Route>
+          <Route path="/shop" element={<Shop/>}></Route>
+          <Route path="/movies" element={<Movies/>}></Route>
+          <Route path="/shows" element={<Shows/>}></Route>
+          <Route path="/park" element={<Park/>}></Route>
+        </Routes>
+      </BrowserRouter>
+      
+      <div>
       <About />
       <div className="card">
         <CardOne />
       </div>
 
-      <div style={{backgroundColor:" rgb(4, 4, 136)",textAlign:"center",color:"white",padding:"10px"}}>
+      <div style={{backgroundColor:" rgb(4, 4, 136)",textAlign:"center",color:"white",padding:"10px",width:'100%'}}>
       <Header head="Whats on Disney+"/>
       <div className="cardtwo">
         
@@ -33,36 +50,31 @@ function App() {
         </div>
         <Imagecompo />
         </div>
-        <div className="shopp">
-        <Header head="Shop"/>
+        <div >
+        
         <Shop />
         </div>
 
        <div>
-        <Header head="Park"/>
-        <div className="parkk">
-         <Park image="./images/disneylandorig.jpeg" title="DISNEY LAND"/>
-          <Park image="./images/cruise.jpeg" title="DISNEY LAND"/>
-          <Park image="./images/manDaughter.jpeg" title="DISNEY LAND"/>
-        </div>
+        
+        
         </div>
 
-        <div>
-          <Header head="Shows"/>  
-          <div className="display">
-          <Shows img="./images/lion.jpeg"/>
-          <Shows img="./images/frozen.jpeg"/>
+        
+            
+          <div >
+          <Shows />
+          
           </div>
-        </div>
+        
 
-        <div>
-        <Header head="Movies"/>
-        <div className="parkk">
-         <Park image="./images/starwars.jpeg" title="DISNEY LAND" />
-          <Park image="./images/insideout.jpeg" title="DISNEY LAND"/>
-          <Park image="./images/soul.jpeg" title="DISNEY LAND"/>
+        
+        
+        <div >
+         <Park />
+          
         </div>
-        </div>
+        
 
         <div>
           <Header head="More From Disney"/>  
@@ -74,6 +86,7 @@ function App() {
         </div>
 
         <Footer/>
+    </div>
     </div>
   )
 }

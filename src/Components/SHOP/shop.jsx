@@ -1,12 +1,20 @@
+import Header from "../Header/Header";
 import "./shop.css"
-import image from "./images/manGirlgift.jpeg"
+
 
 const Shop = ()=>{
     return(
-        <div className="shopImage"> 
-            <img src={image} id="shopimage" />
+        <>
+       
+        <div><Header head="Shop"/></div>
+        <div > 
+
+            
+            <img src="./images/FatherDaughter.jpg" id="shopimage" />
 
         </div>
+        </>
+        
     )
 }
 
