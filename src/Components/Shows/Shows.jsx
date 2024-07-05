@@ -3,7 +3,7 @@ import "./Shows.css"
 
 const Shows = (prop)=>{
     return(
-        <>
+        <div className="shows">
         <div>
         <Header head="Shows"/>
         </div>
@@ -14,7 +14,7 @@ const Shows = (prop)=>{
             <img src="./images/frozen.jpeg" />
             
         </div>
-        </>
+        </div>
     )
 }
 

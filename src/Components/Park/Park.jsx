@@ -7,7 +7,7 @@ const Park = ()=>{
 
           return (
            
-            <>
+            <div className="park">
             <div><Header head="Park"/></div> 
             <div  className="parkk">
                
@@ -28,7 +28,7 @@ const Park = ()=>{
             
            
           </div>
-          </>
+          </div>
 
           )
     

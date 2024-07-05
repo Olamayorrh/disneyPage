@@ -4,7 +4,7 @@ import "./shop.css"
 
 const Shop = ()=>{
     return(
-        <>
+        <div className="shop">
        
         <div><Header head="Shop"/></div>
         <div > 
@@ -13,7 +13,7 @@ const Shop = ()=>{
             <img src="./images/FatherDaughter.jpg" id="shopimage" />
 
         </div>
-        </>
+        </div>
         
     )
 }

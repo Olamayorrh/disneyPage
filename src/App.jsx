@@ -50,7 +50,7 @@ function App() {
         </div>
         <Imagecompo />
         </div>
-        <div >
+        <div className="shoppy">
         
         <Shop />
         </div>
@@ -62,7 +62,7 @@ function App() {
 
         
             
-          <div >
+          <div className="showss" >
           <Shows />
           
           </div>

@@ -2,7 +2,7 @@ import "./Footer.css"
 
 const Footer = ()=>{
     return(
-        <>
+        <div className="footerr">
         <div className="follow">
             <p>Follow Disney on:</p>
            <div className="pic">
@@ -38,7 +38,7 @@ const Footer = ()=>{
             <p>@ Disney @Disney.Pixar @& <sup>TM</sup> Lucasfilm LTD @Marvel.All Rights Reserved</p>
        </div>
 
-        </>
+        </div>
     )
 }
 

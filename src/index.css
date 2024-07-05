@@ -1,8 +1,53 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; 
+}
+
 .container{
   width:100%;
+  padding: 10px;
 }
 
 #imagecom button{
   background-color: blue;
   margin: 10px;
 }
+
+@media (max-width:768px){
+  .container,.about,.array,.cardContainer,.footer,.headerHead,.moredisney,.new,.park,.shop,.shows,#imagecom{
+      width:100%;
+     
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    
+  }
+
+ .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .parkk{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+} 

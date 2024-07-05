@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css"
 const Navbar = ()=>{
     return(
-        <div>
+        <div className="nav">
 
             <nav>
                 <Link to="/"><img src="./images/disneyLogo.png" id="navimg"></img></Link>
